@@ -1,0 +1,70 @@
+<html>
+<head>
+<title>Calculator</title>
+</head>
+<body bgcolor="#2B547E">
+<center><br>
+<h1><font color="#6CBB3C" style="font-size=50">Mohamad Mrad 201801533<br>
+<font color="#64E986" style="font-size=75"> Mohamad's really cool calculator that actually works </font><br><br><br>
+<font color="111111" style="font-size=70">MY FIRST CALCULATOR
+</h1>
+<form name="calculator">
+<h2>
+<font color="#F5F5DC"> Input:
+<input name="input" type="text">
+<br><br>
+ Output:
+<input name="output" type="text">
+<br><br>
+</font></h2>
+<button type="button" onclick="calculator.input.value +='1'" style="border-radius:8px; margin:3px">
+<img src="button1.png"style="width:40px; height=40px; border-radius:8px; margin:3px"></button>
+<button type="button" onclick="calculator.input.value +='2'" style="border-radius:8px; margin:3px">
+<img src="button2.png"style="width:40px; height=40px; border-radius:8px; margin:3px"></button>
+<button type="button" onclick="calculator.input.value +='3'"style="border-radius:8px; margin:3px" >
+<img src="button3.png"style="width:40px; height=40px; border-radius:8px; margin:3px"></button>
+<button type="button" onclick="calculator.input.value +='+'" style="border-radius:8px; margin:3px">
+<img src="button+.png"style="width:40px; height=40px; border-radius:8px; margin:3px"></button>
+<br>
+<button type="button" onclick="calculator.input.value +='4'" style="border-radius:8px; margin:3px">
+<img src="button4.png"style="width:40px; height=40px; border-radius:8px; margin:3px"></button>
+<button type="button" onclick="calculator.input.value +='5'" style="border-radius:8px; margin:3px">
+<img src="button5.png"style="width:40px; height=40px; border-radius:8px; margin:3px"></button>
+<button type="button" onclick="calculator.input.value +='6'" style="border-radius:8px; margin:3px">
+<img src="button6.png"style="width:40px; height=40px; border-radius:8px; margin:3px"></button>
+<button type="button" onclick="calculator.input.value +='-'" style="border-radius:8px; margin:3px">
+<img src="button-.png"style="width:40px; height=40px; border-radius:8px; margin:3px"></button>
+<br>
+<button type="button" onclick="calculator.input.value +='7'" style="border-radius:8px; margin:3px">
+<img src="button7.png"style="width:40px; height=40px; border-radius:8px; margin:3px"></button>
+<button type="button" onclick="calculator.input.value +='8'" style="border-radius:8px; margin:3px">
+<img src="button8.png"style="width:40px; height=40px; border-radius:8px; margin:3px"></button>
+<button type="button" onclick="calculator.input.value +='9'" style="border-radius:8px; margin:3px">
+<img src="button9.png"style="width:40px; height=40px; border-radius:8px; margin:3px"></button>
+<button type="button" onclick="calculator.input.value +='*'" style="border-radius:8px; margin:3px">
+<img src="buttonx.png"style="width:40px; height=40px; border-radius:8px; margin:3px"></button>
+<br>
+<button type="button" onclick="calculator.input.value +='0'" style="border-radius:8px; margin:3px">
+<img src=" button0.png"style="width:40px; height=40px; border-radius:8px; margin:3px"></button>
+<button type="button" onclick="calculator.input.value =''; calculator.output.value=''"style="border-radius:8px; margin:3px">
+<img src="buttonc.png"style="width:40px; height=40px; border-radius:8px; margin:3px"></button>
+<button type="button" onclick="calculator.output.value =eval(calculator.input.value)" style="border-radius:8px; margin:3px">
+<img src="button=.png"style="width:40px; height=40px; border-radius:8px; margin:3px"></button>
+<button type="button" id="divbtn" onclick="calculator.input.value +='/'" style="border-radius:8px; margin:3px">
+<img src="buttonz.png"style="width:40px; height=40px; border-radius:8px; margin:3px"></button>
+</form>
+<hr size=10 color="sana">
+<!-- up till here i inserted all of my buttons but instead of adding a name inside each button i used pictures to represent the numbers and functions-->
+<h2 align=left><b><font color="#EC9E29">About the coder:</font></b></h2><br>
+<img src="me.jpg" id="myPic" style="width:180px; height=80px;">
+<br>
+<h3><font color="#C47451">Mohamad Mrad is a first year LAU mechatronic engineering student.<br> He is very interesetd in science 
+and is always on the look for the latest scientifical and technolagical advancements and discoverys.
+ <script>
+ function myP(){
+ document.getElementById("myPic").src="True.jpg";}
+ 
+ </script>
+</body>
+</html>
+
